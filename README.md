@@ -40,22 +40,22 @@ classifying whether images are real or fake and one for classifying the label (t
 
 # Comparison of the Models
 
-Simple GAN
+# Simple GAN
 
 ![Simple GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-gan/plots/generated_digits.png)
 
-DC-GAN
+# DC-GAN
 
 ![DC-GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-dcgan/plots/dcgan_plot.png)
 
-Improved DC-GAN
+# Improved DC-GAN
 
 ![Improved DC-GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-improved-dcgan/plots/gan_norm_inputs_drop_extra_lbsmooth_plot_gauss_noise.png)
 
-W-GAN
+# W-GAN
 
 ![W-GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-wgan/plots/wgan_digits.png)
 
-AC-GAN
+# AC-GAN
 
 ![AC-GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-acgan/plots/mnist_acgan.png)
