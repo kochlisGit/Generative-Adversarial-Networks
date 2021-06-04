@@ -31,7 +31,7 @@ The improved model of the DC-GAN contains methods for improving the discriminato
 7. Adding label smoothing in the Binary Crossentropy (BCE) loss function.
 8. Setting b1 parameter of ADAM to 0.5.
 
-# W-GAN
+# WGAN-GP
 Replaces BCE loss of Discriminator with Wasserstein loss. Also, It uses Gradient Penalty method to penalize the weights.
 
 # AC-GAN
