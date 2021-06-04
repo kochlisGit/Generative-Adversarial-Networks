@@ -12,7 +12,7 @@ GAN is a machine learning model architecture, which is used to generate images, 
 4. W-GAN
 5. AC-GAN
 
-# Simple GAN
+# GAN
 Uses Denses layers both in generator & discriminator model. There are 2 major problems of GANS:
 1. Mode Collapse: The generator learns simple features to fool the discriminator and exploits them.
 2. Blurry Images
