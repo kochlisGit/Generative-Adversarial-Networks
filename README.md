@@ -40,7 +40,7 @@ classifying whether images are real or fake and one for classifying the label (t
 
 # Comparison of the Models
 
-# Simple GAN
+# GAN
 
 ![Simple GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-gan/plots/generated_digits.png)
 
