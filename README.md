@@ -11,6 +11,7 @@ GAN is a machine learning model architecture, which is used to generate images, 
 3. Improved DC-GAN
 4. W-GAN
 5. AC-GAN
+6. Pix2Pix
 
 # Comparison of GAN models in MNIST Digit generation dataset:
 
@@ -65,3 +66,13 @@ Adds label information to the GAN intpus. The generator takes as an input the la
 classifying whether images are real or fake and one for classifying the label (target) of an image.
 
 ![AC-GAN](https://github.com/kochlisGit/Handwritten-Digit-Generation/blob/main/mnist-digits-acgan/plots/mnist_acgan.png)
+
+# Pix2Pix Patch-GAN
+
+https://arxiv.org/pdf/1611.07004v3.pdf
+
+I have implemented the patch gan as in the paper with the following improvements:
+
+- The discriminator is trained extra steps.
+- The discriminator contains noise in its inputs.
+- Unet generator is replaced by Unet3+.
