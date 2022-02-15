@@ -1,5 +1,5 @@
 # Keras-GAN
-Implementation of GAN architectures for generating fake images.
+Implementation of GAN architectures for generating digits.
 
 # Generative Adversarial Network (GAN)
 GAN is a machine learning model architecture, which is used to generate images, inspired by the Minimax theory. Two neural networks (The generator & The discriminator) contest with each other. The generator, tries to fool the discriminator, by generating random fake images, without having any knowledge of the target images. The goal of the discriminator is to classify whether an image is real or fake. An image is considered as real if it comes from the dataset. An image is considered as fake if it is generated.
